@@ -4,9 +4,9 @@
   "description": "jest test",
   "main": "index.js",
   "coverage": "jest --collectCoverage",
-  "test:watch": "jest --watchAll",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [
     "jest",
