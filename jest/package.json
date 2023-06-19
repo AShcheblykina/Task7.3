@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "jest test",
   "main": "index.js",
+  "coverage": "jest --collectCoverage",
+  "test:watch": "jest --watchAll",
   "scripts": {
     "test": "jest"
   },
@@ -28,3 +30,5 @@
         "lines": 100
   }
 }
+}
+
